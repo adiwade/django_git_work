@@ -19,5 +19,9 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.show_message, name = 'simple view'),
+<<<<<<< HEAD
     path('add/', views.show_add, name = 'simple view'),
+=======
+    path('sub/', views.show_sub, name = 'sub view'),
+>>>>>>> django_test_branch
 ]
