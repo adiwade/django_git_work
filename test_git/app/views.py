@@ -11,4 +11,6 @@ def show_message(request):
     return HttpResponse("from view.....")
 def show_sub(request):
     return HttpResponse("from sub view....")
+def show_div(request):
+    return HttpResponse("from div view....")
 

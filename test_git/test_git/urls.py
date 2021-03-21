@@ -23,5 +23,6 @@ urlpatterns = [
     path('add/', views.show_add, name = 'simple view'),
 
     path('sub/', views.show_sub, name = 'sub view'),
+    path('div/', views.show_div, name = 'div view'),
 
 ]
