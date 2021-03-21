@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app import views
+from email_git import views as eg
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.show_message, name = 'simple view'),
@@ -24,5 +25,6 @@ urlpatterns = [
 
     path('sub/', views.show_sub, name = 'sub view'),
     path('div/', views.show_div, name = 'div view'),
+    path('email/', eg.email_git, name = 'emailgit'),
 
 ]
