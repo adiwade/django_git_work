@@ -4,3 +4,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 def show_message(request):
     return HttpResponse("from view.....")
+def show_sub(request):
+    return HttpResponse("from sub view....")
